@@ -1,0 +1,13 @@
+html, body {
+    background: #9A616D;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.py-5 {
+    padding-top: 0rem!important;
+    padding-bottom: 3rem!important;
+}

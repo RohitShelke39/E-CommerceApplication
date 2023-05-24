@@ -1,0 +1,49 @@
+{% csrf_token %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook Login Page</title>
+    <link rel="stylesheet" href="/static/css/face.css">
+</head>
+
+<body style="background-color:rgb(232, 231, 231);">
+    <div class="face">
+        <form class="login">
+            Name:<input class="t1" id="name" type="text" name="email" value="" placeholder="PLEASE ENTER YOUR NAME ">
+            <br>
+            Email:<input class="t1" id="email" type="email" name="email" value="" placeholder="PLEASE ENTER YOUR EMAIL">
+            <br>
+            Password:<input class="t1" id="password" type="password" name="password" value=""
+                placeholder="CREATE PASSWORD">
+            <br>
+            Mobile:<input class="t1" id="mobile" type="number" name="mobile" value=""
+                placeholder="PLEASE ENTER YOUR MOBILENO">
+            <br>
+            Age:<input class="t1" id="age" type="number" name="age" value="" placeholder="PLEASE ENTER YOUR AGE">
+            <br>
+            Dob:<input class="t1" id="dob" type="date" name="date" value="" placeholder="PLEASE ENTER DATE OF BIRTH">
+            <br>
+            Gender:<input id="gender" type="text" name="gender" value="" placeholder="PLEASE ENTER YOUR GENDER">
+            <br>
+            <br>
+            <br>
+            <button class="butt1" id="submit" type="button">Create Account</button>
+            <br>
+            <br>
+
+        </form>
+    </div>
+    <h1>facebook</h1>
+    <h3>Connect with friends and the world <br> around you on Facebook.</h3>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+<script src="/static/js/style1.js"></script>
+
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>women</title>
+  <link rel="stylesheet" href="/static/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="/static/bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+<body>
+  <!-- NAVIGAION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger" href="#"><img src="/static/img/logo.png" alt="" width="60px"
+          height="30px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav my-2 my-lg-0 me-3 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <div>
+              <a href="/uindex/" style="text-decoration:none; color: black;">
+                <button class="btn" type="button">
+                  HOME
+                </button>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a href="/men/" style="text-decoration:none; color: black;">
+                <button class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                  aria-expanded="false">
+                  MEN </a>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="/mtshirt/">T-SHIRT</a></li>
+                <li><a class="dropdown-item" href="/mshirt/">SHIRT</a></li>
+                <li><a class="dropdown-item" href="/mhoodi/">HOODI</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                aria-expanded="false">
+                <a style="text-decoration: none; color: black;" href="/women/"> WOMEN </a>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="/onepiece/">ONE PIECE</a></li>
+                <li><a class="dropdown-item" href="/wtshirt/">T-SHIRT</a></li>
+                <li><a class="dropdown-item" href="/kurta/">KURTIS</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <form class="d-flex mx-auto" role="search">
+          <input class="form-control me-2 col-md-3" type="search" placeholder="search by product or category"
+            aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- <img src="pictures/profilelogo.png" width="40" height="30" alt=""> -->
+        <a href="/my_account/"><img src="/static/img/profilelogo.png" alt="" width="40" height="30" /></a>
+
+        <!-- <img src="pictures/wishlist.png" width="45" height="30" alt=""> -->
+        <a href="/wishlist/"><img src="/static/img/wishlist.png" alt="" width="45" height="30" /></a>
+        <!-- <img src="pictures/cart.png" width="40" height="40" alt=""> -->
+        <a href="/my_cart/"><img src="/static/img/cart.png" alt="" width="40" height="40" /></a>
+
+
+      </div>
+    </div>
+  </nav>
+  <!-- container -->
+  <div class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h1 class="text-center">WOMEN SECTION</h1>
+          <form action="">
+            <center>
+              <h4>FILTER</h4>
+            </center>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-cat">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    category
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                  <div class="accordion-body">
+                    <ul>
+                      <a href="/onepiece/">
+                        <li>one piece</li>
+                      </a>
+                      <a href="/wtshirt/">
+                        <li>T-Shirt</li>
+                      </a>
+                      <a href="/kurta/">
+                        <li>Kurta</li>
+                      </a>
+                    </ul>
+                  </div>
+                </div>
+                <div class="accordion-size">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Size
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                      <ul>
+                        <a href="#">
+                          <li>S</li>
+                        </a>
+                        <a href="#">
+                          <li>L</li>
+                        </a>
+                        <a href="#">
+                          <li>M</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-size">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Brand
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                      <ul>
+                        <a href="#">
+                          <li>fusion</li>
+                        </a>
+                        <a href="#">
+                          <li>puma</li>
+                        </a>
+                        <a href="#">
+                          <li>Avasa</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-size">
+                  <h2 class="accordion-header" id="heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      Sort By
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                    <div class="accordion-body">
+                      <ul>
+                        <a href="#">
+                          <li>Price:High-Low</li>
+                        </a>
+                        <a href="#">
+                          <li>Price:Low-High</li>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- cards col  -->
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card" style="width:18rem;">
+                <a href="/onepiece1/"><img src="/static/img/womenimages/1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">######<img src="/static/img/womenimages/like.png" class="rounded float-end"
+                        width="10%"><br>
+                      blue denim jacket
+                    </p>
+                    <span class="align-middle">₹399</span>
+                    <span class="text-decoration-line-through">₹599</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+              <a href="/onepiece2/"><img src="/static/img/womenimages/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+
+                  <p class="card-text">######<img src="/static/img/womenimages/like.png" class="rounded float-end"
+                      width="10%"><br>
+                    blue denim jacket
+                  </p>
+                  <span class="align-middle">₹399</span>
+                  <span class="text-decoration-line-through">₹599</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div class="col-sm-4">
+          <div class="card" style="width:18rem;">
+            <a href="/onepiece3/"><img src="/static/img/womenimages/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <p class="card-text">######<img src="/static/img/womenimages/like.png" class="rounded float-end"
+                    width="10%"><br>
+                  blue denim jacket
+                </p>
+                <span class="align-middle">₹399</span>
+                <span class="text-decoration-line-through">₹599</span>
+            </a>
+          </div>
+        </div>
+        <br>
+      </div>
+</body>
+<script src="bootstrap/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+
+</html>

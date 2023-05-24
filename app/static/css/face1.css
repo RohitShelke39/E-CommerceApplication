@@ -1,0 +1,70 @@
+.face {
+    border: 3px solid;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+
+.error-message {
+    color: red;
+}
+
+h1 {
+    margin-top: 250px;
+    margin-left: 200px;
+    color: blue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-weight: 100;
+    margin-left: 200px;
+}
+
+.t1 {
+    height: 25px;
+}
+
+.login {
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    display: grid;
+    width: 75%;
+}
+
+.butt1 {
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(87, 165, 244);
+
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.butt2 {
+    color: rgb(35, 141, 246);
+    border-style: hidden;
+    background-color: rgb(232, 231, 231);
+    ;
+}
+
+.butt3 {
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border-style: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

@@ -1,0 +1,75 @@
+{% csrf_token %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Register</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="/static/bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+<body style="background-color: antiquewhite;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card flex-row my-5 border-0 shadow rounded-3 overflow-hidden">
+          <div class="card-img-left d-none d-md-flex">
+            <!-- Background image for card set in CSS! -->
+            <img
+              src="https://images.pexels.com/photos/4199525/pexels-photo-4199525.jpeg?auto=compress&cs=tinysrgb&w=600"
+              width="500px" alt="Welcome to the family">
+          </div>
+          <div class="card-body p-4 p-sm-5">
+            <h5 class="card-title text-center mb-2 fw-light fs-5">Welcome</h5>
+            <form>
+
+              <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="name" placeholder="myusername">
+                <label for="floatingInputUsername">Name</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@email.com">
+                <label for="floatingInputEmail">Email address</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="mobile" class="form-control" id="mobile" placeholder="name@email.com">
+                <label for="floatingInputNumber">Mobile Number</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password1" placeholder="Confirm Password">
+                <label for="floatingPasswordConfirm">Confirm Password</label>
+              </div>
+
+              <div class="d-grid mb-2">
+                <button class="btn btn-lg btn-primary btn-login fw-bold text" type="button"
+                  id="submit">Register</button>
+              </div>
+
+              <a class="d-block text-center mt-2 small" href="/login/">Have an account? Sign In</a>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<script src="/static/js/usignup.js"></script>
+
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wishlist | Clothing Shop</title>
+    <link rel="stylesheet" href="/static/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+
+<body>
+    <!-- NAVIGAION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger" href="#"><img src="/static/img/logo.png" alt="" width="60px"
+                    height="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav my-2 my-lg-0 me-3 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <div>
+                            <a href="uindex/" style="text-decoration:none; color: black;">
+                                <button class="btn" type="button">
+                                    HOME
+                                </button>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a href="men/" style="text-decoration:none; color: black;">
+                                <button class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                                    aria-expanded="false">
+                                    MEN </a>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="mtshirt/">T-SHIRT</a></li>
+                                <li><a class="dropdown-item" href="mshirt/">SHIRT</a></li>
+                                <li><a class="dropdown-item" href="mhoodi/">HOODI</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                                aria-expanded="false">
+                                <a style="text-decoration: none; color: black;" href="women/"> WOMEN </a>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="onepiece/">ONE PIECE</a></li>
+                                <li><a class="dropdown-item" href="wtshirt/">T-SHIRT</a></li>
+                                <li><a class="dropdown-item" href="kurta/">KURTIS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex mx-auto" role="search">
+                    <input class="form-control me-2 col-md-3" type="search" placeholder="search by product or category"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <!-- <img src="pictures/profilelogo.png" width="40" height="30" alt=""> -->
+                <a href="my_account/"><img src="/static/img/profilelogo.png" alt="" width="40" height="30" /></a>
+
+                <!-- <img src="pictures/wishlist.png" width="45" height="30" alt=""> -->
+                <a href="wishlist/"><img src="/static/img/wishlist.png" alt="" width="45" height="30" /></a>
+                <!-- <img src="pictures/cart.png" width="40" height="40" alt=""> -->
+                <a href="my_cart/"><img src="/static/img/cart.png" alt="" width="40" height="40" /></a>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Wishlist -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="mb-4">My Wishlist</h1>
+            <div class="row">
+
+                <!-- Product 1 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350x250.png?text=Product+Image"
+                            alt="Product Image">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Name</h4>
+                            <p class="card-text">Product Description</p>
+                            <a href="#" class="btn btn-primary">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350x250.png?text=Product+Image"
+                            alt="Product Image">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Name</h4>
+                            <p class="card-text">Product Description</p>
+                            <a href="#" class="btn btn-primary">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://via.placeholder.com/350x250.png?text=Product+Image"
+                            alt="Product Image">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Name</h4>
+                            <p class="card-text">Product Description</p>
+                            <a href="#" class="btn btn-primary">Remove</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <center>
+                <div class="pt-5">
+                    <h6 class="mb-0"><a href="uindex/" class="btn btn-primary btn-block btn-lg" role="button">Back
+                            to shop</a></h6>
+                </div>
+            </center>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
